@@ -1,0 +1,18 @@
+class=SmartDormRuleEngine
+test=normal_dualConditionStartsAirConditioner
+result=Success
+test=normal_emptyRoomSkipsOccupancyRules
+result=Success
+test=boundary_humidityAtSeventyTriggersVentilation
+result=Success
+test=boundary_illuminanceAtEightyDoesNotTriggerNightLight
+result=Success
+test=conflict_higherPriorityOwnsSharedDevice
+result=Success
+test=exception_disabledRuleIsIgnored
+result=Success
+test=exception_noRuleMatchesKeepsDevicesUnchanged
+result=Success
+test=exception_invalidActionValueIsClamped
+result=Success
+Tests run: 8, Failure: 0, Error: 0, Pass: 8, Ignore: 0
