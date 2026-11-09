@@ -1,0 +1,2 @@
+# Keep the public model and test entry names readable for course review.
+-keep-global-name

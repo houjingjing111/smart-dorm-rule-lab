@@ -1,0 +1,11 @@
+/.idea/
+/.hvigor/
+/oh_modules/
+/entry/oh_modules/
+/build/
+/entry/build/
+/local.properties
+*.hap
+*.app
+*.log
+!.gitkeep
